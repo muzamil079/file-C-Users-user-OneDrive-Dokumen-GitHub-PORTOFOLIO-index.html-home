@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muzamil Habibi | Power Plant Engineer - Operation, Maintenance & Renewable Energy</title>
+  <meta name="description" content="Portofolio resmi Muzamil Habibi, Lulusan D4 Sistem Pembangkit Energi. Spesialisasi dalam pemodelan CAD komponen turbin, perancangan catu daya instrumentasi pembangkit di KiCad, serta otomatisasi kalkulasi efisiensi termal dengan Python.">
+  <meta name="keywords" content="Muzamil Habibi, Power Plant Engineer, Maintenance Engineer, Operation Engineer, Sistem Pembangkit Energi, Turbin, CAD, KiCad, EBT, Termodinamika, K3L, Python">
+  <meta name="author" content="Muzamil Habibi">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Mobile Navigation Overlay Backdrop -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" id="brandLogo">
+        <span class="logo-badge">⚡</span>
+        <div class="logo-text">
+          <span class="logo-title">Muzamil Habibi</span>
+          <span class="logo-sub">Power Plant Engineer</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">Tentang Saya</a>
+        <a href="#skills" class="nav-link">Keahlian</a>
+        <a href="#projects" class="nav-link">Proyek</a>
+        <a href="#experience" class="nav-link">Pengalaman</a>
+        <a href="#education" class="nav-link">Pendidikan</a>
+        <a href="#contact" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="https://drive.google.com/file/d/1BCTgK0TxAeLkO_N5dGUIqviYGQ3nu-iC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline nav-cv-btn" id="btnDownloadCVNav">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Unduh CV
+        </a>
+        <a href="#contact" class="btn btn-sm btn-primary">Hubungi Saya</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Buka Menu Navigasi">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Terbuka untuk Peluang: Power Plant Operation / Maintenance Engineer</span>
+            </div>
+
+            <p class="hero-subgreeting">Halo, saya</p>
+            <h1 class="hero-title">
+              Muzamil Habibi
+              <span class="hero-title-role">Power Plant Engineer</span>
+            </h1>
+
+            <div class="hero-role-badge-row">
+              <span class="badge-tag role-tag">Operation &amp; Maintenance</span>
+              <span class="badge-tag role-tag">Renewable Energy (EBT)</span>
+              <span class="badge-tag role-tag">Plant Instrumentation</span>
+            </div>
+
+            <blockquote class="hero-quote-card">
+              <div class="quote-symbol">“</div>
+              <p class="hero-tagline">
+                Menjaga keandalan sistem pembangkit melalui perancangan presisi, pemeliharaan preventif, dan analisis data teknik.
+              </p>
+            </blockquote>
+
+            <p class="hero-desc">
+              Lulusan D4 Sistem Pembangkit Energi dengan keahlian dalam pemodelan gambar teknik (CAD), perancangan sirkuit kendali catu daya instrumen, dan analisis komputasi efisiensi termal.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary" id="btnExploreProjects">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                Jelajahi Proyek Teknik
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="btnContactHero">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                Hubungi Saya
+              </a>
+              <a href="https://drive.google.com/file/d/1BCTgK0TxAeLkO_N5dGUIqviYGQ3nu-iC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btnCVHero" title="Buka Dokumen Portofolio / CV di Google Drive">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Dokumen Portofolio &amp; CV
+              </a>
+            </div>
+
+            <!-- Key Engineering Highlights Stats -->
+            <div class="hero-stats-row">
+              <div class="stat-item">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Proyek Rekayasa Kunci</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">CAD</span>
+                <span class="stat-label">AutoCAD &amp; SolidWorks (3rd Angle)</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">PCB</span>
+                <span class="stat-label">KiCad Linear Regulated Supply</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">PY</span>
+                <span class="stat-label">Python Kalkulasi &amp; Termal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Plant Engineering Console & Telemetry Widget -->
+          <div class="hero-widget" id="plantTelemetryWidget">
+            <div class="widget-header">
+              <div class="widget-title-wrap">
+                <span class="status-dot telemetry-pulse"></span>
+                <span>ENGINEERING TELEMETRY &amp; SPEC VIEWER</span>
+              </div>
+              <div class="api-status-badge">
+                <span class="telemetry-grid-status">GRID: 50.0 Hz</span>
+                <span class="telemetry-state-ok">STATUS: NOMINAL</span>
+              </div>
+            </div>
+
+            <!-- Spec Tabs -->
+            <div class="api-tabs">
+              <button class="api-tab active" data-spec="turbine" id="tabTurbine">01. Turbine CAD</button>
+              <button class="api-tab" data-spec="power" id="tabPower">02. 78XX Power PCB</button>
+              <button class="api-tab" data-spec="thermal" id="tabThermal">03. Thermal Python</button>
+            </div>
+
+            <div class="widget-body">
+              <div class="terminal-container">
+                <div class="terminal-bar">
+                  <span class="terminal-indicator">SPEC FILE:</span>
+                  <span class="terminal-url" id="specFileName">turbine_shaft_blade.dwg.json</span>
+                  <button class="copy-btn" id="btnCopyTelemetry" title="Salin Data Spesifikasi">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  </button>
+                </div>
+                <pre class="terminal-code"><code id="telemetryDataContent">{
+  "subsystem": "Steam & Gas Turbine Assembly",
+  "components": ["Turbine Blades (Sudu)", "Main Rotor Shaft (Poros)"],
+  "projection_standard": "Third Angle Projection (ISO/DIN)",
+  "drafting_tools": ["AutoCAD", "SolidWorks 3D"],
+  "maintenance_scope": [
+    "Geometry & tolerance verification",
+    "Clearance inspection against vibration",
+    "Orthographic fabrication reference"
+  ],
+  "operational_focus": "High rotational integrity & thermal expansion tolerancing"
+}</code></pre>
+              </div>
+            </div>
+
+            <div class="widget-footer">
+              <span>DOMAIN: POWER PLANT RE-ENGINEERING</span>
+              <span class="badge-tag">DATA VERIFIED</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Profil Profesional</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <p class="section-desc">Menghubungkan Teori Konversi Energi dengan Praktik Rekayasa Lapangan</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-wrap">
+            <p class="about-p">
+              Saya merupakan lulusan D4 Sistem Pembangkit Energi yang memfokuskan diri pada bidang operasi, pemeliharaan (maintenance), dan integrasi Energi Baru Terbarukan (EBT). Landasan keilmuan saya mencakup termodinamika terapan, perpindahan panas, mekanika fluida, serta penerapan standar Keselamatan Kerja &amp; Lingkungan (K3L) untuk menjaga keandalan sistem pembangkit.
+            </p>
+            <p class="about-p">
+              Dalam menyelesaikan tantangan teknis, saya menggabungkan analisis mekanikal dan instrumentasi dengan efisiensi alat komputasi. Pengalaman proyek saya mencakup pembuatan gambar kerja komponen turbin sesuai standar proyeksi ortografis, perancangan modul catu daya analog untuk sistem sensor di KiCad, serta pembuatan skrip kalkulasi otomatis dengan Python dan Excel guna mempercepat verifikasi data sifat material dan efisiensi energi.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </div>
+                <h3 class="pillar-title">Integritas Mekanikal &amp; CAD</h3>
+                <p class="pillar-desc">Penguasaan gambar teknik komponen turbin dengan proyeksi orthogonal standar sudut ketiga untuk presisi fabrikasi dan panduan overhaul berkala.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                </div>
+                <h3 class="pillar-title">Catu Daya &amp; Instrumentasi</h3>
+                <p class="pillar-desc">Perancangan skematik dan layout PCB linier teregulasi multi-tegangan untuk menyuplai sensor pemantau pembangkit bebas gangguan riak.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                </div>
+                <h3 class="pillar-title">Automasi Komputasi Termal</h3>
+                <p class="pillar-desc">Pengembangan alat kalkulasi otomatis Python dan Excel guna mempercepat evaluasi efisiensi termodinamika dan sifat material pembangkit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="card card-terminal">
+              <div class="card-terminal-header">
+                <span class="terminal-dots"></span>
+                <span class="terminal-title">engineer_profile.json</span>
+              </div>
+              <div class="card-terminal-body">
+                <div class="code-line"><span class="code-key">"name"</span>: <span class="code-val">"Muzamil Habibi"</span>,</div>
+                <div class="code-line"><span class="code-key">"education"</span>: <span class="code-val">"D4 Sistem Pembangkit Energi"</span>,</div>
+                <div class="code-line"><span class="code-key">"target_role"</span>: <span class="code-val">"Operation / Maintenance Engineer"</span>,</div>
+                <div class="code-line"><span class="code-key">"primary_interests"</span>: [<span class="code-val">"Power Plant Maintenance"</span>, <span class="code-val">"Renewable Energy (EBT)"</span>],</div>
+                <div class="code-line"><span class="code-key">"mechanical_cad"</span>: [<span class="code-val">"AutoCAD"</span>, <span class="code-val">"SolidWorks"</span>],</div>
+                <div class="code-line"><span class="code-key">"instrumentation"</span>: [<span class="code-val">"KiCad PCB"</span>, <span class="code-val">"78XX Regulator"</span>],</div>
+                <div class="code-line"><span class="code-key">"computational"</span>: [<span class="code-val">"Python"</span>, <span class="code-val">"Excel Formula"</span>, <span class="code-val">"Mermaid.js"</span>],</div>
+                <div class="code-line"><span class="code-key">"base_location"</span>: <span class="code-val">"Kota Surabaya, INDONESIA"</span>,</div>
+                <div class="code-line"><span class="code-key">"status"</span>: <span class="code-val">"Available for Full-time / Project Hire"</span></div>
+              </div>
+            </div>
+
+            <div class="quick-contact-box">
+              <h4 class="quick-contact-title">Mencari Engineer Pembangkit yang Teruji?</h4>
+              <p class="quick-contact-desc">Siap berdiskusi untuk posisi teknis di tim operasi, pemeliharaan mesin, atau proyek integrasi energi.</p>
+              <div class="quick-contact-btns">
+                <a href="#contact" class="btn btn-sm btn-primary w-full">Hubungi Saya</a>
+                <a href="https://drive.google.com/file/d/1BCTgK0TxAeLkO_N5dGUIqviYGQ3nu-iC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline w-full">Buka Dokumen CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Kompetensi Rekayasa</span>
+          <h2 class="section-title">Keahlian Teknik</h2>
+          <p class="section-desc">Kompetensi Inti dan Perangkat yang Digunakan</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Hard Skills Pembangkit -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">1. Bidang Teknik &amp; Operasional</h3>
+                <span class="skill-cat-sub">Hard Skills Inti Pembangkit Listrik</span>
+              </div>
+            </div>
+
+            <ul class="skills-badge-list">
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Operasi &amp; Pemeliharaan Pembangkit</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Termodinamika &amp; Konversi Energi</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Mekanika Fluida &amp; Perpindahan Panas</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Integrasi Energi Baru Terbarukan (EBT)</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Otomasi &amp; Sistem Kontrol</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Elektronika &amp; Skematik PCB</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Gambar Teknik &amp; Desain CAD/CAM</li>
+              <li class="skill-item-badge"><span class="skill-bullet"></span>Keselamatan Kerja &amp; Lingkungan (K3L)</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Perangkat Lunak & Desain Rekayasa -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">2. Perangkat Lunak &amp; Desain Rekayasa</h3>
+                <span class="skill-cat-sub">CAD &amp; EDA Instrumentasi</span>
+              </div>
+            </div>
+
+            <div class="tools-spec-list">
+              <div class="tool-spec-box">
+                <div class="tool-spec-header">
+                  <strong>CAD: AutoCAD &amp; SolidWorks</strong>
+                  <span class="tool-tag">Mechanical</span>
+                </div>
+                <p class="tool-spec-desc">Pemodelan geometri 2D/3D komponen turbin, penentuan proyeksi tampak orthogonal standar sudut ketiga (Third Angle Projection), toleransi dimensi manufaktur &amp; panduan perakitan.</p>
+              </div>
+
+              <div class="tool-spec-box">
+                <div class="tool-spec-header">
+                  <strong>EDA: KiCad</strong>
+                  <span class="tool-tag">Electronics</span>
+                </div>
+                <p class="tool-spec-desc">Perancangan skematik rangkaian analog, kalkulasi komponen penyearah filter riak, dan perancangan layout jalur PCB modul catu daya linier teregulasi (78XX series).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Analisis Data & Komputasi -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">3. Analisis Data &amp; Komputasi</h3>
+                <span class="skill-cat-sub">Pemrosesan &amp; Visualisasi Alur Energi</span>
+              </div>
+            </div>
+
+            <div class="tools-spec-list">
+              <div class="tool-spec-box">
+                <div class="tool-spec-header">
+                  <strong>Python</strong>
+                  <span class="tool-tag">Computational</span>
+                </div>
+                <p class="tool-spec-desc">Skrip otomatisasi untuk kalkulasi parameter sifat material, evaluasi efisiensi termal siklus konversi, dan pemrosesan data logika bertingkat.</p>
+              </div>
+
+              <div class="tool-spec-box">
+                <div class="tool-spec-header">
+                  <strong>Microsoft Excel</strong>
+                  <span class="tool-tag">Data Modeling</span>
+                </div>
+                <p class="tool-spec-desc">Pengembangan formula matematika/teknik terstruktur, tabel kalkulasi densitas kristal, dan template pemrosesan data parameter pembangkit.</p>
+              </div>
+
+              <div class="tool-spec-box">
+                <div class="tool-spec-header">
+                  <strong>Mermaid.js</strong>
+                  <span class="tool-tag">System Flowchart</span>
+                </div>
+                <p class="tool-spec-desc">Pemetaan visual diagram alir (flowchart) proses konversi energi dan logika tahapan pemrosesan sistem mekanikal/elektrikal.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Pendekatan Kerja (Work Practices) -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">4. Pendekatan Kerja (Work Practices)</h3>
+                <span class="skill-cat-sub">Metode Rekayasa &amp; Standar Praktik</span>
+              </div>
+            </div>
+
+            <ul class="skills-badge-list">
+              <li class="skill-item-badge">
+                <span class="skill-bullet"></span>
+                <strong>Analisis Gangguan &amp; Troubleshooting:</strong> Diagnosa keandalan sistem catu daya dan penyimpangan data termal.
+              </li>
+              <li class="skill-item-badge">
+                <span class="skill-bullet"></span>
+                <strong>Dokumentasi Standar Rekayasa:</strong> Penyusunan lembar kerja proyeksi orthogonal dan spesifikasi toleransi presisi.
+              </li>
+              <li class="skill-item-badge">
+                <span class="skill-bullet"></span>
+                <strong>Pemodelan Alur Logika Sistem:</strong> Struktur diagramatis alir energi dari input bahan bakar/fluida hingga daya netto.
+              </li>
+              <li class="skill-item-badge">
+                <span class="skill-bullet"></span>
+                <strong>Budaya K3L:</strong> Penerapan kepatuhan keselamatan kerja di lingkungan bertegangan tinggi dan temperatur tinggi.
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Studi Kasus Rekayasa</span>
+          <h2 class="section-title">Proyek Rekayasa</h2>
+          <p class="section-desc">Bukti Praktik Desain, Instrumentasi, dan Komputasi Pembangkit</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-controls-wrap">
+          <button class="filter-btn active" data-filter="all">Semua Proyek (3)</button>
+          <button class="filter-btn" data-filter="mechanical">Mekanikal &amp; Turbin</button>
+          <button class="filter-btn" data-filter="instrumentation">Instrumentasi &amp; Catu Daya</button>
+          <button class="filter-btn" data-filter="computation">Komputasi &amp; Data</button>
+        </div>
+
+        <div class="projects-container">
+
+          <!-- PROJECT 01: TURBIN CAD (PRIORITAS 1 UTAMA) -->
+          <article class="project-card" data-category="mechanical">
+            <div class="project-badge-wrap">
+              <span class="priority-badge primary">Prioritas #1 Utama • Mekanikal &amp; Maintenance</span>
+              <span class="tech-pill">AutoCAD</span>
+              <span class="tech-pill">SolidWorks</span>
+              <span class="tech-pill">Third Angle Projection</span>
+              <span class="tech-pill">Turbin Pembangkit</span>
+            </div>
+
+            <div class="project-header-row">
+              <div>
+                <h3 class="project-title">Proyek 01: Gambar Teknik &amp; Proyeksi Komponen Turbin Pembangkit</h3>
+                <span class="project-subtitle">Penyusunan dokumen teknis detail untuk sudu turbin dan poros utama sebagai panduan fabrikasi dan prosedur inspeksi pemeliharaan (maintenance)</span>
+              </div>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-main-info">
+                <div class="info-block">
+                  <h4 class="info-heading">Ringkasan Proyek</h4>
+                  <p class="info-text">
+                    Pembuatan dokumen gambar teknik detailed rekayasa komponen kritis turbin pembangkit (sudut/sudu turbin &amp; poros utama) beserta penetapan standar dimensi, batas toleransi, dan proyeksi orthogonal sudut ketiga (Third Angle Projection) untuk kebutuhan analisis manufaktur serta pemeliharaan berkala.
+                  </p>
+                </div>
+
+                <div class="problem-solution-grid">
+                  <div class="prob-sol-box problem">
+                    <span class="box-label">Tantangan Teknis (Problem)</span>
+                    <p>Komponen turbin beroperasi pada beban dinamis serta temperatur tinggi, membutuhkan kejelasan toleransi geometris dan proyeksi tampak yang bebas multitafsir guna mencegah kesalahan manufaktur atau kegagalan saat penggantian suku cadang pada masa overhaul.</p>
+                  </div>
+                  <div class="prob-sol-box solution">
+                    <span class="box-label">Solusi Rekayasa (Solution)</span>
+                    <p>Memodelkan geometri komponen secara terukur dan menurunkan gambar kerja ortografis standar Third Angle Projection yang mencakup dimensi kritis, batasan toleransi, dan spesifikasi tampak detail agar siap diproduksi dan diinspeksi.</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="info-heading">Fitur &amp; Spesifikasi Rekayasa</h4>
+                  <ul class="features-list">
+                    <li><strong>Pemodelan Sudu Turbin (Blade Geometry):</strong> Kontur aerodinamis sudu yang presisi untuk efisiensi aliran fluida kerja.</li>
+                    <li><strong>Pemodelan Poros Utama (Rotor Shaft):</strong> Penentuan dimensi diameter bantalan (*bearing seat*) dan alur pasak.</li>
+                    <li><strong>Standar Third Angle Projection:</strong> Penerapan sistem proyeksi ortografis tampak depan, atas, dan samping terstandarisasi.</li>
+                    <li><strong>Anotasi Toleransi Dimensi:</strong> Penetapan batas toleransi geometrik guna menjamin kecocokan perakitan (*fit &amp; clearance*).</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-meta-sidebar">
+                <div class="meta-box">
+                  <span class="meta-label">Peran &amp; Tanggung Jawab (My Role)</span>
+                  <p class="meta-val highlight-role">CAD Modeler &amp; Drafter Teknis</p>
+                  <p class="meta-sub">Pemodelan geometri 2D/3D komponen turbin, penentuan proyeksi tampak, dan dokumentasi spesifikasi dimensi serta toleransi teknis.</p>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Proses Pengembangan (Process)</span>
+                  <ol class="dev-process-steps">
+                    <li>Identifikasi fungsi operasional sudu dan poros turbin</li>
+                    <li>Pemodelan 2D/3D geometri komponen via CAD</li>
+                    <li>Penentuan proyeksi tampak ortogonal standar Third Angle</li>
+                    <li>Penetapan dimensi kritis dan batas toleransi teknis</li>
+                    <li>Finalisasi lembar kerja gambar teknik manufaktur</li>
+                  </ol>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Hasil Proyek (Result)</span>
+                  <p class="meta-val result-val">Tersedianya dokumen gambar teknik manufaktur terstandarisasi yang siap dijadikan acuan fabrikasi suku cadang dan pedoman inspeksi pemeliharaan berkala komponen turbin.</p>
+                </div>
+
+                <div class="project-links">
+                  <a href="https://drive.google.com/file/d/1RIOfR3vHOrhvOjPcgVpodgK4bs3qNPbz/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary w-full" title="Buka Dokumen / Gambar Teknik CAD di Google Drive">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    Buka Dokumen Proyek Turbin (Google Drive)
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: CATU DAYA INSTRUMENTASI (PRIORITAS 2) -->
+          <article class="project-card" data-category="instrumentation">
+            <div class="project-badge-wrap">
+              <span class="priority-badge secondary">Prioritas #2 • Instrumentasi &amp; Catu Daya Pembangkit</span>
+              <span class="tech-pill">KiCad</span>
+              <span class="tech-pill">IC Regulator 78XX</span>
+              <span class="tech-pill">Komponen Analog</span>
+              <span class="tech-pill">PCB Design</span>
+            </div>
+
+            <div class="project-header-row">
+              <div>
+                <h3 class="project-title">Proyek 02: Modul Catu Daya Terregulasi Sistem Instrumentasi Pembangkit</h3>
+                <span class="project-subtitle">Perancangan sirkuit catu daya analog linear stabil multi-output untuk menyuplai sensor dan sistem kendali pembangkit</span>
+              </div>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-main-info">
+                <div class="info-block">
+                  <h4 class="info-heading">Ringkasan Proyek</h4>
+                  <p class="info-text">
+                    Merancang sirkuit catu daya analog dengan penyearah gelombang penuh (*full-wave rectifier*), penyaring riak (*capacitive ripple filter*), dan tiga keluaran tegangan DC stabil (5V, 9V, 12V) menggunakan regulator seri 78XX untuk menyuplai daya pada sistem kendali serta instrumentasi sensor pembangkit.
+                  </p>
+                </div>
+
+                <div class="problem-solution-grid">
+                  <div class="prob-sol-box problem">
+                    <span class="box-label">Tantangan Teknis (Problem)</span>
+                    <p>Fluktuasi tegangan dan gangguan riak (*ripple*) pada jaringan daya instrumen berisiko menyebabkan galat pembacaan sensor atau kerusakan fatal pada modul mikrokontroler/pengendali pembangkit.</p>
+                  </div>
+                  <div class="prob-sol-box solution">
+                    <span class="box-label">Solusi Rekayasa (Solution)</span>
+                    <p>Mengimplementasikan penyearah gelombang penuh dengan filter riak kapasitif terukur serta tiga tingkat regulasi tegangan DC stabil (5V, 9V, 12V) menggunakan regulator linier seri 78XX untuk pasokan daya yang bebas derau (*low-noise*).</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="info-heading">Fitur &amp; Spesifikasi Rekayasa</h4>
+                  <ul class="features-list">
+                    <li><strong>Penyearah Gelombang Penuh:</strong> Konversi daya AC ke DC dengan jembatan dioda efisien.</li>
+                    <li><strong>Penyaring Riak Kapasitif:</strong> Menghaluskan bentuk gelombang DC guna mereduksi *ripple voltage*.</li>
+                    <li><strong>Output Tegangan DC Multi-Level:</strong>
+                      <span class="tech-inline">5V DC (Logika Kendali)</span>,
+                      <span class="tech-inline">9V DC (Subsistem Pendukung)</span>, dan
+                      <span class="tech-inline">12V DC (Sensor / Transduser)</span>.
+                    </li>
+                    <li><strong>Proteksi &amp; Stabilitas Jalur PCB:</strong> Tata letak jalur (*track routing*) yang memperhitungkan disipasi termal dan isolasi sinyal.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-meta-sidebar">
+                <div class="meta-box">
+                  <span class="meta-label">Peran &amp; Tanggung Jawab (My Role)</span>
+                  <p class="meta-val highlight-role">Hardware &amp; PCB Schematic Designer</p>
+                  <p class="meta-sub">Perancangan skematik rangkaian di KiCad, pemilihan spesifikasi komponen analog &amp; regulator 78XX, serta analisis layout jalur PCB.</p>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Proses Pengembangan (Process)</span>
+                  <ol class="dev-process-steps">
+                    <li>Kalkulasi kebutuhan arus dan disipasi daya tegangan 5V, 9V, 12V</li>
+                    <li>Perancangan skematik sirkuit modul menggunakan KiCad EDA</li>
+                    <li>Pemilihan regulator 7805, 7809, 7812 dan komponen penyaring</li>
+                    <li>Analisis lebar jalur tembaga (trace width) dan penempatan heatsink</li>
+                    <li>Validasi integritas skematik kelistrikan</li>
+                  </ol>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Hasil Proyek (Result)</span>
+                  <p class="meta-val result-val">Desain modul catu daya teregulasi yang memvalidasi ketersediaan tiga jalur keluaran DC konstan dan siap digunakan untuk menyuplai sistem instrumentasi sensor pembangkit.</p>
+                </div>
+
+                <div class="project-links">
+                  <a href="https://drive.google.com/file/d/1ICIcfBFEPQQx4GkK_MlAbVb138MPKPzY/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary w-full" title="Buka Dokumen / Skematik KiCad di Google Drive">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    Buka Dokumen Skematik Catu Daya (Google Drive)
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: OTOMASI KALKULASI & PEMODELAN DATA (PRIORITAS 3) -->
+          <article class="project-card" data-category="computation">
+            <div class="project-badge-wrap">
+              <span class="priority-badge tertiary">Prioritas #3 • Komputasi Teknik &amp; Analisis Data</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Microsoft Excel</span>
+              <span class="tech-pill">Mermaid.js</span>
+              <span class="tech-pill">Efisiensi Termal</span>
+            </div>
+
+            <div class="project-header-row">
+              <div>
+                <h3 class="project-title">Proyek 03: Otomatisasi Kalkulasi &amp; Pemodelan Data Teknik Pembangkit</h3>
+                <span class="project-subtitle">Pengembangan alat bantu kalkulasi otomatis parameter sifat material dan analisis efisiensi termal sistem konversi energi</span>
+              </div>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-main-info">
+                <div class="info-block">
+                  <h4 class="info-heading">Ringkasan Proyek</h4>
+                  <p class="info-text">
+                    Mengembangkan alat bantu perhitungan parameter sifat material pembangkit, analisis efisiensi termal/kepadatan kristal, logika bertingkat untuk pemrosesan data, dan alur logika sistem konversi energi menggunakan skrip Python, Excel, serta diagramasi Mermaid.js.
+                  </p>
+                </div>
+
+                <div class="problem-solution-grid">
+                  <div class="prob-sol-box problem">
+                    <span class="box-label">Tantangan Teknis (Problem)</span>
+                    <p>Perhitungan sifat material dan efisiensi termal secara manual membutuhkan waktu verifikasi yang lama serta rentan kesalahan input (*human error*) pada evaluasi rutin pembangkit.</p>
+                  </div>
+                  <div class="prob-sol-box solution">
+                    <span class="box-label">Solusi Rekayasa (Solution)</span>
+                    <p>Menyusun skrip Python dan lembar kerja formula bertingkat di Excel untuk mengotomatisasi perhitungan matematis, didukung diagram alir Mermaid.js untuk visualisasi proses konversi energi yang komprehensif.</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="info-heading">Fitur &amp; Spesifikasi Rekayasa</h4>
+                  <ul class="features-list">
+                    <li><strong>Kalkulasi Parameter Termal Otomatis:</strong> Perhitungan efisiensi siklus termodinamika secara instan.</li>
+                    <li><strong>Analisis Kepadatan Kristal Material:</strong> Estimasi sifat material komponen pembangkit untuk ketahanan suhu.</li>
+                    <li><strong>Logika Bertingkat Pemrosesan Data:</strong> Skrip logika multi-kondisi untuk validasi rentang operasional yang aman.</li>
+                    <li><strong>Diagram Alir Sistem (Mermaid.js):</strong> Visualisasi diagram alir interaktif tahapan konversi energi.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-meta-sidebar">
+                <div class="meta-box">
+                  <span class="meta-label">Peran &amp; Tanggung Jawab (My Role)</span>
+                  <p class="meta-val highlight-role">Data &amp; Logic Script Developer</p>
+                  <p class="meta-sub">Penyusunan formula matematika/teknik, pembuatan skrip automasi Python, dan pemetaan diagram alir (flowchart) proses konversi energi.</p>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Proses Pengembangan (Process)</span>
+                  <ol class="dev-process-steps">
+                    <li>Perumusan persamaan termodinamika &amp; sifat kristal material</li>
+                    <li>Pembuatan template kalkulasi terstruktur di Microsoft Excel</li>
+                    <li>Pengembangan skrip otomasi Python untuk eksekusi perhitungan berulang</li>
+                    <li>Pemetaan alur siklus energi ke dalam diagram visual Mermaid.js</li>
+                    <li>Verifikasi akurasi hasil keluaran data</li>
+                  </ol>
+                </div>
+
+                <div class="meta-box">
+                  <span class="meta-label">Hasil Proyek (Result)</span>
+                  <p class="meta-val result-val">Sistem kalkulasi otomatis yang meningkatkan efisiensi verifikasi data teknis, mereduksi kesalahan hitung, dan menyajikan alur konversi energi secara terstruktur.</p>
+                </div>
+
+                <div class="project-links">
+                  <a href="https://drive.google.com/file/d/1tQTzhArTvtU1OBcD75EmyFtyr1rVddLb/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary w-full" title="Buka Dokumen / Repositori Skrip di Google Drive">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    Buka Dokumen Otomasi Kalkulasi (Google Drive)
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Rekam Jejak Terapan</span>
+          <h2 class="section-title">Pengalaman Teknik</h2>
+          <p class="section-desc">Rekayasa Akademik, Proyek Terapan, dan Organisasi</p>
+        </div>
+
+        <div class="timeline-wrap">
+          
+          <!-- Track 1: Desain & CAD -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Rekayasa Desain &amp; Gambar Teknik Komponen Pembangkit</h3>
+                  <span class="timeline-org">Proyek Rekayasa &amp; Akademik Sistem Pembangkit Energi</span>
+                </div>
+                <span class="timeline-badge">Mechanical Integrity</span>
+              </div>
+              <div class="timeline-body">
+                <p class="timeline-lead">
+                  Melakukan pemodelan komponen pembangkit, pembuatan gambar kerja manufaktur, dan penentuan toleransi geometri menggunakan perangkat CAD untuk kebutuhan analisis mekanikal.
+                </p>
+                <ul class="timeline-bullets">
+                  <li>Memodelkan geometri 2D/3D sudu dan poros turbin pembangkit menggunakan perangkat lunak AutoCAD dan SolidWorks.</li>
+                  <li>Menerapkan kaidah proyeksi tampak orthogonal sudut ketiga (*Third Angle Projection*) sesuai standar internasional.</li>
+                  <li>Menetapkan toleransi dimensi dan kelonggaran celah (*clearance*) perakitan guna memastikan keandalan mekanik saat rotasi tinggi.</li>
+                </ul>
+                <div class="timeline-tech-tags">
+                  <span>AutoCAD</span>
+                  <span>SolidWorks</span>
+                  <span>Third Angle Projection</span>
+                  <span>Turbin Pembangkit</span>
+                  <span>Toleransi Geometrik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Track 2: Sirkuit & PCB -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Perancangan Instrumentasi &amp; Sirkuit Catu Daya</h3>
+                  <span class="timeline-org">Proyek Rekayasa Elektronika &amp; Kontrol Pembangkit</span>
+                </div>
+                <span class="timeline-badge">Instrumentation</span>
+              </div>
+              <div class="timeline-body">
+                <p class="timeline-lead">
+                  Merancang sirkuit elektronika analog, skematik modul daya, dan layout PCB menggunakan KiCad untuk menyuplai modul sensor dan sistem kendali.
+                </p>
+                <ul class="timeline-bullets">
+                  <li>Membangun rangkaian penyearah gelombang penuh dan filter riak kapasitif untuk menstabilkan sumber tegangan DC.</li>
+                  <li>Mengintegrasikan regulator linier seri 78XX untuk memproduksi tiga rel tegangan presisi (5V, 9V, 12V DC).</li>
+                  <li>Menganalisis lebar jalur PCB dan penempatan komponen untuk meminimalkan interferensi noise kelistrikan pada transduser instrumen.</li>
+                </ul>
+                <div class="timeline-tech-tags">
+                  <span>KiCad</span>
+                  <span>IC 78XX</span>
+                  <span>Analog Electronics</span>
+                  <span>PCB Layout</span>
+                  <span>Sensor Power Supply</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Track 3: Data & Pemodelan Sistem -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Analisis Data, Pemodelan Sistem &amp; Otomasi Komputasi</h3>
+                  <span class="timeline-org">Komputasi Energi &amp; Evaluasi Siklus Termodinamika</span>
+                </div>
+                <span class="timeline-badge">Computational</span>
+              </div>
+              <div class="timeline-body">
+                <p class="timeline-lead">
+                  Menyusun kalkulasi parameter sifat material industri, analisis efisiensi termal, dan skrip otomasi logika komputasi data teknik.
+                </p>
+                <ul class="timeline-bullets">
+                  <li>Mengembangkan formula bertingkat di Microsoft Excel untuk mempercepat pemrosesan data parameter mekanikal dan material.</li>
+                  <li>Menulis skrip automasi berbasis Python untuk mengevaluasi efisiensi termodinamika dan sifat kepadatan kristal material secara cepat.</li>
+                  <li>Memetakan diagram alir alur proses konversi energi menggunakan Mermaid.js untuk kejelasan dokumentasi sistem kerja.</li>
+                </ul>
+                <div class="timeline-tech-tags">
+                  <span>Python</span>
+                  <span>Microsoft Excel</span>
+                  <span>Mermaid.js</span>
+                  <span>Termodinamika</span>
+                  <span>Analisis Sifat Material</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Latar Belakang Akademik</span>
+          <h2 class="section-title">Pendidikan</h2>
+          <p class="section-desc">Pondasi Formal Keilmuan Rekayasa Sistem Konversi Energi</p>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-icon-wrap">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          </div>
+          <div class="edu-content">
+            <div class="edu-top-row">
+              <div>
+                <h3 class="edu-degree">D4 Sistem Pembangkit Energi</h3>
+                <span class="edu-inst">Jenjang Sarjana Terapan Rekayasa Pembangkit Energi</span>
+              </div>
+              <span class="edu-year">Lulusan D4 Terapan</span>
+            </div>
+            
+            <div class="edu-focus-box">
+              <h4 class="edu-focus-title">Fokus Pembelajaran &amp; Kompetensi Inti:</h4>
+              <p class="edu-desc">
+                Operasi Pembangkit, Pemeliharaan Mesin, Konversi Energi, Termodinamika, Mekanika Fluida, Sistem Kontrol &amp; Instrumentasi, K3L, serta Integrasi Energi Baru Terbarukan (EBT).
+              </p>
+            </div>
+
+            <div class="edu-highlights">
+              <span class="edu-pill">Operasi Pembangkit</span>
+              <span class="edu-pill">Pemeliharaan Mesin (Maintenance)</span>
+              <span class="edu-pill">Termodinamika &amp; Fluida</span>
+              <span class="edu-pill">Integrasi Energi Baru Terbarukan (EBT)</span>
+              <span class="edu-pill">Otomasi &amp; Instrumentasi</span>
+              <span class="edu-pill">Keselamatan Kerja (K3L)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Komunikasi &amp; Kolaborasi</span>
+          <h2 class="section-title">Kontak</h2>
+          <p class="section-desc">Mari Terhubung untuk Peluang Kerja Sama Profesional</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Informasi &amp; Ketersediaan</h3>
+            <p class="contact-card-desc">
+              Saya terbuka untuk peluang kerja sebagai <strong>Power Plant Operation Engineer</strong> atau <strong>Maintenance Engineer</strong> di lokasi industri pembangkit, manufaktur, dan energi baru terbarukan.
+            </p>
+
+            <div class="contact-items-list">
+              
+              <!-- Lokasi -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Lokasi</span>
+                  <span class="contact-val">Kota Surabaya, INDONESIA</span>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-action-wrap">
+                  <div>
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:muzamilhabibi079@gmail.com" class="contact-val email-val" id="emailContactLink">muzamilhabibi079@gmail.com</a>
+                  </div>
+                  <button class="copy-email-btn" id="btnCopyEmail" title="Salin Alamat Email">Salin</button>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                  <span class="contact-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/search/results/all/?keywords=Muzamil%20Habibi" target="_blank" rel="noopener noreferrer" class="contact-val" title="Profil LinkedIn Muzamil Habibi">
+                    Muzamil Habibi
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Portofolio / Berkas Google Drive -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Portofolio Lengkap &amp; Berkas</span>
+                  <a href="https://drive.google.com/file/d/1BCTgK0TxAeLkO_N5dGUIqviYGQ3nu-iC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="contact-val" title="Buka Berkas Google Drive">
+                    Dokumen Google Drive Resmi
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Quick Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="contact-card-title">Kirim Pesan Email</h3>
+            <p class="contact-form-subtitle">Tuliskan pesan Anda di bawah ini untuk membuka aplikasi email secara otomatis ke <strong>muzamilhabibi079@gmail.com</strong>.</p>
+            
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Nama Lengkap / Perusahaan</label>
+                <input type="text" id="senderName" class="form-input" placeholder="Contoh: HRD PT Pembangkitan Jawa-Bali" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subjek Pembahasan</label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="Peluang Posisi: Power Plant Maintenance Engineer" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Pesan / Diskusi Teknis</label>
+                <textarea id="senderMessage" class="form-textarea" rows="4" placeholder="Halo Muzamil, kami tertarik dengan portofolio perancangan turbin & catu daya instrumen Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full" id="btnSubmitContact">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Kirim Pesan Email
+              </button>
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-brand">⚡ Muzamil Habibi</span>
+        <span class="footer-sub">Power Plant Engineer | Operation, Maintenance &amp; Renewable Energy. Kota Surabaya, INDONESIA.</span>
+      </div>
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" id="backToTopBtn" aria-label="Kembali ke atas">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          Kembali ke Atas
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Javascript -->
+  <script src="script.js"></script>
+</body>
+</html>
